@@ -5,6 +5,7 @@
   --blue: rgb(0, 174, 233);
   --light-gray: #f3f3f3;
   --deep-gray: rgb(117, 135, 150);
+  --deep-gray-1: rgb(85, 98, 109);
   --white: #fff;
 }
 
@@ -17,8 +18,26 @@
 .white-bg {
   background-color: var(--white);
 }
-.color-deep-gray{
-  color:var(--deep-gray)
+.color-deep-gray {
+  color: var(--deep-gray);
+}
+
+.section-wrapper {
+  border-radius: 8px;
+  background-color: var(--white);
+  overflow: hidden;
+}
+
+.section-title-1 {
+  border-bottom: 1px solid rgb(231, 236, 247);
+  height: 62px;
+  padding: 16px;
+}
+.section-title-1 h3 {
+  color: var(--deep-gray-1);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
 }
 
 html,
@@ -56,4 +75,33 @@ a {
     color: white;
     background: var(--gray-bg);
   }
+}
+
+.data-table {
+  padding: 24px;
+}
+
+.data-table table {
+  min-width: 620px;
+  width: 100%;
+  position: relative;
+  border-spacing: 0px;
+  border-collapse: separate;
+  height: auto;
+}
+
+th{
+  padding: 16px 8px;
+}
+th:last-child{
+  text-align: right;
+}
+
+
+tbody tr td{
+  border-bottom: 1px solid rgb(231, 236, 247);
+  padding: 16px 8px;
+}
+tbody tr td:last-child{
+  text-align: right;
 }

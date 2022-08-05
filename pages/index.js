@@ -1,11 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
+import Transactions from './../components/Transactions/Transactions';
 
 export default function Home() {
   return (
-   <div>
-    ok
-   </div>
+  <Transactions />
   )
 }
