@@ -1,7 +1,23 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import Header from './../components/common/Header';
+import Head from "next/head"
+import Search from './../components/common/Search';
+import {useEffect} from "react"
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  useEffect(() => {
+    document.body.className="light-theme"
+  }, [])
+  return (
+    <>
+    <Head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    </Head>
+      <Header />
+      <Search />
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
