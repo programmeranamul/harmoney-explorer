@@ -13,7 +13,7 @@ function Header() {
           <Link href="/">
             <a className="logo-area d-flex">
               <Image src={logo} alt="logo" />
-              <div className={style.logo_text}>
+              <div className={`d-none d-md-flex ${style.logo_text}`}>
                 Harmony
                 <sapn className={style.logo_text_sm}>Block Explorer</sapn>
               </div>
@@ -22,7 +22,7 @@ function Header() {
 
           <div className={`d-flex align-items-center ${style.right_area}`}>
             <div className={`d-flex align-items-center`}>
-              <p className={style.address_text}>Address Format</p>
+              <p className={`d-none d-md-block ${style.address_text}`}>Address Format</p>
               <div className={style.address_type}>
                 <div className={style.active_int}></div>
                 <div className={style.one}>

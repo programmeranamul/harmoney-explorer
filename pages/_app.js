@@ -3,6 +3,7 @@ import Header from './../components/common/Header';
 import Head from "next/head"
 import Search from './../components/common/Search';
 import {useEffect} from "react"
+import Footer from './../components/common/Footer';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       <Header />
       <Search />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }
