@@ -27,53 +27,54 @@ const tableRow = [
 
 const tableData = [
   {
-    Shard: 0,
-    Timestamp: "08/04/2022, 19:17:58",
-    Hash: "0x78...f40c",
-    From: "one1...wwkv",
-    To: "one1...v40x",
+    shard: 0,
+    timestamp: "08/04/2022, 19:17:58",
+    hash: "0x78...f40c",
+    from: "one1...wwkv",
+    to: "one1...v40x",
    
   },
   {
-    Shard: 0,
-    Timestamp: "08/04/2022, 19:17:58",
-    Hash: "0x78...f40c",
-    From: "one1...wwkv",
-    To: "one1...v40x",
+    shard: 0,
+    timestamp: "08/04/2022, 19:17:58",
+    hash: "0x78...f40c",
+    from: "one1...wwkv",
+    to: "one1...v40x",
    
   },
   {
-    Shard: 0,
-    Timestamp: "08/04/2022, 19:17:58",
-    Hash: "0x78...f40c",
-    From: "one1...wwkv",
-    To: "one1...v40x",
+    shard: 0,
+    timestamp: "08/04/2022, 19:17:58",
+    hash: "0x78...f40c",
+    from: "one1...wwkv",
+    to: "one1...v40x",
    
   },
   {
-    Shard: 0,
-    Timestamp: "08/04/2022, 19:17:58",
-    Hash: "0x78...f40c",
-    From: "one1...wwkv",
-    To: "one1...v40x",
+    shard: 0,
+    timestamp: "08/04/2022, 19:17:58",
+    hash: "0x78...f40c",
+    from: "one1...wwkv",
+    to: "one1...v40x",
    
   },
   {
-    Shard: 0,
-    Timestamp: "08/04/2022, 19:17:58",
-    Hash: "0x78...f40c",
-    From: "one1...wwkv",
-    To: "one1...v40x",
+    shard: 0,
+    timestamp: "08/04/2022, 19:17:58",
+    hash: "0x78...f40c",
+    from: "one1...wwkv",
+    to: "one1...v40x",
    
   },
   {
-    Shard: 0,
-    Timestamp: "08/04/2022, 19:17:58",
-    Hash: "0x78...f40c",
-    From: "one1...wwkv",
-    To: "one1...v40x",
+    shard: 0,
+    timestamp: "08/04/2022, 19:17:58",
+    hash: "0x78...f40c",
+    from: "one1...wwkv",
+    to: "one1...v40x",
    
   },
+  
  
  
 ];

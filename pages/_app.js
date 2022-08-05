@@ -4,6 +4,7 @@ import Head from "next/head"
 import Search from './../components/common/Search';
 import {useEffect} from "react"
 import Footer from './../components/common/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -11,9 +12,7 @@ function MyApp({ Component, pageProps }) {
   }, [])
   return (
     <>
-    <Head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
-    </Head>
+   
       <Header />
       <Search />
       <Component {...pageProps} />
